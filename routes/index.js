@@ -83,6 +83,7 @@ router.put('/invoice-me/:num/bills/:trhash', function(req, res) {
         "status": "waiting",
         "error": 0,
         "user": body.user,
+        "comment": body.comment,
       },
     },
   };
